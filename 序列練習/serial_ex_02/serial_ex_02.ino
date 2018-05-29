@@ -27,7 +27,7 @@ void loop() {
   
   
 
-void reback_blink() {
+void reback_blink() {        //此副程式中的註解拿掉，可以用在單獨對電腦的測試
   while(!Serial.available()){/*Serial.println("wait");*/}
   if(Serial.available()){
  val = Serial.read();
