@@ -7,7 +7,7 @@
  *  版本：v01
  *  說明：旋轉編碼器模組加入中斷來計算，減少丟步(遺失訊號)，另外加入sw按鈕功能，用於清除計數。
  */
- #define sw 6
+ #define sw 6                //定義 sw = 6
  #define outputA 2           //定義 outputA = 2
  #define outputB 7           //定義 outputB = 7
  int counter = 0;            //定義 counter 為 int 類型變數，且初始值為0
@@ -47,8 +47,8 @@ void test(){
    aLastState = aState;        //將aState 最後的值 設給 aLastState
 }
 
-void clear_count(){
-   if (digitalRead(sw) == LOW){
+void clear_count(){             //用於計數清除的副程式
+   if (digitalRead(sw) == LOW){ //當sw 為低電位時條件成立
       counter = 0 ;
    }
 }
