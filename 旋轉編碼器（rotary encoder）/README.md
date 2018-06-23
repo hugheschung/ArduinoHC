@@ -6,4 +6,4 @@
 >>encoder_hu02
 
 >[arduino | 旋轉編碼器模組使用(3)---使用中斷並加入按鈕歸零](http://hugheschung.blogspot.com/2018/06/arduino-3.html)
->>encoder_hu02
+>>encoder_hu03
