@@ -5,4 +5,4 @@
 
 ---  
 [Arduino | 序列番外(1)：利用puTTy 連線 arduino 使用serial port](http://hugheschung.blogspot.com/2018/05/arduino-putty-arduino-serial-port.html) 的程式碼：  
-實驗三的程式，透過字元0、1控制LED開關：    
+實驗三的程式，透過字元0、1控制LED開關： 18A008     
