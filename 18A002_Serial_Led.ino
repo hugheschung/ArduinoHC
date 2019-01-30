@@ -2,7 +2,7 @@
   時間：2018/05/25
   作者：黑修斯 (陳建仲)
   版本：v01
-  說明：用於serial port教學說明，輸入1亮起LDE，輸入0關閉LED。5/25有整理為ez_test2的程式
+  說明：用於serial port教學說明，輸入1亮起LDE，輸入0關閉LED。
 */
 int LED = 13;   //定義LED的腳位
 // the setup function runs once when you press reset or power the board
